@@ -1,0 +1,30 @@
+# MATLAB .gitignore
+
+# Ignore MATLAB temporary files
+*.asv
+*.m~*
+*.asv.m
+*.m~
+*.mlx*
+
+# Ignore MATLAB generated files
+*.mat
+
+# Ignore MATLAB output directories
+/output/
+/results/
+
+# Ignore MATLAB project files
+*.prj
+*.slx
+*.sldd
+
+# Ignore MATLAB user-specific files
+*.figprefs
+*.history
+*.p
+
+# Ignore other common build and system files
+.DS_Store
+Thumbs.db
+desktop.ini
